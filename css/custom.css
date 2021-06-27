@@ -1,0 +1,36 @@
+body{
+	background-image:url("../img/back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	/* background: #e6e6e6; */
+}
+.btn-red{
+	background:red;
+	color:#fff;
+}
+.sub-btn{
+	margin:20px auto;
+}
+
+.sub-btn li .btn-number {
+	padding: 5px !important;
+	margin: 4px;
+	width: 45px;
+	background: #282727;
+	border-color: transparent;
+}
+.sub-btn li {
+	display: inline-block;
+	list-style-type: none;
+}
+.sub-btn li .active{
+	background:#28a745;
+}
+
+*:fullscreen
+*:-ms-fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen {
+   overflow: auto !important;
+}
